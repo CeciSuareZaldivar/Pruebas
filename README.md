@@ -36,15 +36,30 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
 
 ## 👱 Usuarios
 
+#### Tipos de Usuarios 
+##### Cliente (Huésped)
+###### Historias de usuario
+##### Vendedor
+###### Historias de usuario
+
+#### Historias de usuario
+##### Cliente (Huésped)
+##### Vendedor
+
+
+
 
 ## 📝 Creación de la Base de Datos
 
-|Nombre | Campos | Descripción |
-| -------- | -------- | -------- |
-| Empleado | * id_epo  * nombre  * apellido  * salario  * telefono * comision *edo_id_edo | Datos empleado |
-| Cliente |  id_cte  nombre  apellido teléfono no_personas no_mascotas nacionalidad email facebook epo_id_epo | Datos cliente |
-|Prueba|
-|Prueba 2| Prueba 3|
+### Relación Base de Datos
+
+* Tablas:
+    * Empleado
+    * Cliente
+    * Habitación
+    * Opinión 
+    * Cliente_habitación
+    * Cliente_servicio
 
 <a name="autores"></a>
 # ✒️ Autores 
