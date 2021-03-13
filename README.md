@@ -39,9 +39,10 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
 # 📖 Desarrollo del Proyecto
 Depués de tener una breve entrevista con el dueño del hotel obtuvimos la siguiente información:
 
+## Hotel Petfriendly
 * Es un hotel PetFriendly, por lo que los húespedes pueden llevar a sus mascotas.
 
-
+## Cabañas/Habitaciones
 
 * **Cabañas/Habitaciones:**
     * Cuenta con 6 cabañas/habitaciones:
@@ -54,7 +55,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Escritorio y silla
         * Televisión y DVD
 
-
+## Instalaciones
 
 * **Sus instalaciones incluyen:**
     * Alberca 
@@ -63,8 +64,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
     * Estacionamiento
     * Jacuzzi 
 
-
-
+## Servicios
 * **Los servicios que ofrecen:**
     * Todos los servicios, excluyendo el *Wifi*, se deben notificar con anticipación. 
     * ***Sin costo adicional***:
@@ -77,7 +77,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Hiking  $50 con duración de 2 hrs
         * Masaje  $600 con duración de 55 min
 
-
+## Reservación
 
 * **Proceso de reservación:**
     1. El Huésped proporciona sus datos:
