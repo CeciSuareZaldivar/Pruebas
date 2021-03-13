@@ -41,6 +41,8 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
 
 * Es un hotel PetFriendly, por lo que los húespedes pueden llevar a sus mascotas.
 
+
+
 * **Cabañas/Habitaciones:**
     * Cuenta con 6 cabañas/habitaciones:
         * 5 Tienen cama matrimonial, son para 2 personas y tiene un precio de $1,300 cada una.
