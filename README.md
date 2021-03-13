@@ -37,29 +37,32 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
 ## 👱 Usuarios
 
 #### Tipos de Usuarios 
+
 ##### Cliente (Huésped)
-###### Historias de usuario
-##### Vendedor
+
 ###### Historias de usuario
 
-#### Historias de usuario
-##### Cliente (Huésped)
+
 ##### Vendedor
 
-
+###### Historias de usuario
 
 
 ## 📝 Creación de la Base de Datos
 
-### Relación Base de Datos
-
-* Tablas:
+* Entidades:
     * Empleado
     * Cliente
     * Habitación
     * Opinión 
     * Cliente_habitación
     * Cliente_servicio
+
+### Modelo ER
+![modelo_er](./img/modelo_er.jpg))  
+
+### Modelo relacional
+![modelo_relacional](./img/modelo_relacional.jpg))  
 
 <a name="autores"></a>
 # ✒️ Autores 
