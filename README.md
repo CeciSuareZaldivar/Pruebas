@@ -32,11 +32,17 @@ Agilizar los procesos dentro del área de ventas del hotel, mediante la estructu
 
 La correcta implementación del proyecto por parte del hotel se traducirá cómo la optimización en la toma de decisiones dentro de su departamento de ventas; el CRM agilizará no sólo la visualización si no también la gestión de sus diferentes datos.
 
-# 📖 Implementación del Proyecto
+# 📖 Desarrollo del Proyecto
 
 ## 👱 Usuarios
 
+
 ## 📝 Creación de la Base de Datos
+
+|Nombre Tabla | Campos | Descripción |
+| ------------- | ------------- |
+| Empleado | * id_epo * nombre * apellido * salario * telefono * comision *edo_id_edo | Datos del empleado |
+| Cliente | * id_cte * nombre * apellido * teléfono * no_personas * no_mascotas * nacionalidad * email * facebook * epo_id_epo |
 
 <a name="autores"></a>
 # ✒️ Autores 
