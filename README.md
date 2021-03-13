@@ -42,13 +42,9 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
 |Nombre | Campos | Descripción |
 | -------- | -------- | -------- |
 | Empleado | * id_epo  * nombre  * apellido  * salario  * telefono * comision *edo_id_edo | Datos empleado |
-| Cliente |  id_cte  
-
-nombre 
-
-apellido 
-
-teléfono no_personas no_mascotas nacionalidad email facebook epo_id_epo | Datos cliente |
+| Cliente |  id_cte  nombre  apellido teléfono no_personas no_mascotas nacionalidad email facebook epo_id_epo | Datos cliente |
+|Prueba|
+|Prueba 2| Prueba 3|
 
 <a name="autores"></a>
 # ✒️ Autores 
