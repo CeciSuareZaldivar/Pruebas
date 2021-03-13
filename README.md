@@ -39,10 +39,16 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
 
 ## 📝 Creación de la Base de Datos
 
-|Nombre Tabla | Campos | Descripción |
+|Nombre | Campos | Descripción |
 | -------- | -------- | -------- |
-| Empleado | id_epo  nombre  apellido  salario  telefono comision *edo_id_edo | Datos empleado |
-| Cliente |  id_cte  nombre apellido teléfono no_personas no_mascotas nacionalidad email facebook epo_id_epo | Datos cliente |
+| Empleado | * id_epo  * nombre  * apellido  * salario  * telefono * comision *edo_id_edo | Datos empleado |
+| Cliente |  id_cte  
+
+nombre 
+
+apellido 
+
+teléfono no_personas no_mascotas nacionalidad email facebook epo_id_epo | Datos cliente |
 
 <a name="autores"></a>
 # ✒️ Autores 
