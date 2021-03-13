@@ -18,27 +18,87 @@ Algunos de los procesos son:
         * Determinadas fechas
         * Las diferentes habitaciones
         * Servicios
-* **Obtener sólo determinados campos de sus huéspedes:**
-    * Estadisticas
-        * Nacionalidad (¿De dónde los visitan?)
-        * No. noches que se hospedan
-        * Valoración (Calificación que los húespedes le asignan a su estadía)
-    * Remarketing:
-        * El e-mail de los húespedes para enviar promociones
+* **Obtener sólo determinados campos**
+    * De sus huéspedes:
+        * Estadisticas
+            * Nacionalidad (¿De dónde los visitan?)
+            * No. noches que se hospedan
+            * Valoración (Calificación que los húespedes le asignan a su estadía)
+        * Remarketing:
+            * El e-mail y el télefono de los húespedes para enviar promociones.
+    * De sus empleados:
+        * Saber cúal fue la comisión que obtuvieron por reservación o por mes. 
 
 # 🎯 Objetivo
 
-Agilizar los procesos dentro del área de ventas del hotel, mediante la estructuración y configuración de un CRM (Customer Relationship Management) personalizado.
+Agilizar los procesos dentro del área de ventas del hotel, mediante la estructuración, sistematización y configuración de un CRM (Customer Relationship Management) personalizado.
 
-La correcta implementación del proyecto por parte del hotel se traducirá cómo la optimización en la toma de decisiones dentro de su departamento de ventas; el CRM agilizará no sólo la visualización si no también la gestión de sus diferentes datos.
+La correcta implementación del proyecto por parte del hotel se traducirá cómo la optimización en la toma de decisiones dentro de su departamento de ventas (reduciendo el tiempo de respuesta por parte del vendedor al cliente); el CRM agilizará no sólo la visualización si no también la gestión de sus diferentes datos.
+
 
 # 📖 Desarrollo del Proyecto
+Depués de tener una breve entrevista con el dueño del hotel obtuvimos la siguiente información:
 
+* Es un hotel PetFriendly, por lo que los húespedes pueden llevar a sus mascotas.
+
+* **Cabañas/Habitaciones:**
+    * Cuenta con 6 cabañas/habitaciones:
+        * 5 Tienen cama matrimonial, son para 2 personas y tiene un precio de $1,300 cada una.
+        * 1 Tiene cama matrimonial e individual, es para 3 personas y tiene un precio de $1,600.
+    * La capacidad total del hotel es de 13 personas.
+    * Todas las cabañas/habitaciones tienen:
+        * Baño
+        * Pequeño closeth
+        * Escritorio y silla
+        * Televisión y DVD
+
+* **Sus instalaciones incluyen:**
+    * Alberca 
+    * Amplio jardín 
+    * Comedor / Estancia al aire libre
+    * Estacionamiento
+    * Jacuzzi 
+
+* **Los servicios que ofrecen:**
+    * Todos los servicios, excluyendo el ***Wifi***, se deben notificar con anticipación. 
+    * ***Sin costo adicional***:
+        * Asador con duración de 4 hrs
+        * Camping con duración de 24 hrs
+        * Telescopio con duración de 2 hrs
+        * Wifi
+    * ***Con costo adicional***:
+        * Fogata  $400 con duración de 2 hrs
+        * Hiking  $50 con duración de 2 hrs
+        * Masaje  $600 con duración de 55 min
+
+* **Proceso de reservación:**
+    1 El Huésped proporciona sus datos:
+        * Nombre Completo
+        * Teléfono
+        * Fechas de la reservación:
+            * Inicio
+            * Fin
+        * No. de personas a hospedarse
+        * No. mascotas que viajarán con ellos
+    2 Se verifica que exista disponibilidad:
+        * Fecha de inicio y fin de reservación
+        * Cabañas/Habitaciones que exista disponibilidad y se cubran las personas que indicó el huésped. 
+    3 En caso de existir disponibilidad, se le pide al huésped que realice el deposito de su anticipo (equivalente al 50% de su estadía) con el fin de confirmar su reservación. 
+
+    El restante lo Liquidará cuándo se encuentre en las instalaciones del hotel.
+
+    4 Cuando el huésped envié el comprobante de su anticipo, se confirma la reservación y se le pregunta si deseará algún servicio para su estadía. En caso de que requiera de algún servicio se le indicará el costo, duración y se le notificará que este se cubrirá cuándo se encuentre en las instalaciones del hotel.
+
+    5 Cuando el cliente realice su check-in dentro de las instaciones del hotel se
+
+    
 ## 👱 Usuarios
 
 #### Tipos de Usuarios 
 
-Para el correcto funcionamiento de la API, únicamente se requieren 2 usuarios. Mismos que se detallan a continuación:
+Para el correcto funcionamiento de la API, únicamente se requieren 2 usuarios. 
+
+Mismos que se detallan a continuación:
 
 ##### Cliente (Huésped)
 
@@ -55,7 +115,7 @@ Suele proporcionar los siguientes datos para preguntar sobre la disponibilidad :
 * No. mascotas que viajan con ellos
 
 ###### Historias de usuario
-Únicamente puede agregar sus datos para pedir informes de su reservación.
+Únicamente puede agregar sus datos para pedir informes y posteriormente en caso de contar con disponibilidad para realizar una reservación.
 
 ##### Vendedor
 Responsable del seguimiento de renta de las cabañas.
@@ -75,6 +135,7 @@ Este usuario puede realizar las siguientes acciones:
 * Consultar atributos específicos de los Clientes
 
 ## 📝 Creación de la Base de Datos
+
 
 ### Entidades
 
