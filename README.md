@@ -59,10 +59,10 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
     * Cliente_servicio
 
 ### Modelo ER
-![modelo_er](./img/modelo_er.jpg))  
+![modelo_er](./img/modelo_er.jpg)
 
 ### Modelo relacional
-![modelo_relacional](./img/modelo_relacional.jpg))  
+![modelo_relacional](./img/modelo_relacional.jpg)
 
 <a name="autores"></a>
 # ✒️ Autores 
