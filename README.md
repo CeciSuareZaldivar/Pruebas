@@ -53,12 +53,14 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Televisión y DVD
 
 
+
 * **Sus instalaciones incluyen:**
     * Alberca 
     * Amplio jardín 
     * Comedor / Estancia al aire libre
     * Estacionamiento
     * Jacuzzi 
+
 
 
 * **Los servicios que ofrecen:**
@@ -72,6 +74,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Fogata  $400 con duración de 2 hrs
         * Hiking  $50 con duración de 2 hrs
         * Masaje  $600 con duración de 55 min
+
 
 
 * **Proceso de reservación:**
