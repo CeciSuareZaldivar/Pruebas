@@ -1,6 +1,42 @@
-# Api Xacalli Posada
+# 🏨  API Xacalli Posada
 
-Pag
+Creación de una API para el Hotel PetFriendly denominado [“Xacalli Posada”](https://www.facebook.com/XacalliEnTepoztlan), ubicado en Tepoztlán Morelos.
+
+### 💡 Nota:
+
+> Este proyecto se realizó cómo parte de la finalización del módulo de BackEnd de [Bedu](https://bedu.org/), el [equipo 1](#Autores) creó la API implementando todo lo aprendido durante el módulo.
+
+
+# 🚀 Requerimientos del proyecto
+
+El hotel requiere agilizar su proceso de toma de decisiones dentro su área de ventas, necesita un espacio en el cual pueda visualizar y analizar los diferentes datos que sus huéspedes le proporcionan.
+
+Algunos de los procesos son:
+* **Seguimiento dentro del proceso de venta:** 
+    * Asignar un vendedor
+    * Verificar disponibiidad:
+        * Determinadas fechas
+        * Las diferentes habitaciones
+        * Servicios
+* **Obtener sólo determinados campos de sus huéspedes:**
+    * Estadisticas
+        * Nacionalidad (¿De dónde los visitan?)
+        * No. noches que se hospedan
+        * Valoración (Calificación que los húespedes le asignan a su estadía)
+    * Remarketing:
+        * El e-mail de los húespedes para enviar promociones
+
+# 🎯 Objetivo
+
+Agilizar los procesos dentro del área de ventas del hotel, mediante la estructuración y configuración de un CRM (Customer Relationship Management) personalizado.
+
+La correcta implementación del proyecto por parte del hotel se traducirá cómo la optimización en la toma de decisiones dentro de su departamento de ventas; el CRM agilizará no sólo la visualización si no también la gestión de sus diferentes datos.
+
+# 📖 Implementación del Proyecto
+
+## 👱 Usuarios
+
+## 📝 Creación de la Base de Datos
 
 # ✒️ Autores 
 
@@ -8,119 +44,8 @@ Pag
 [![David Velazquez](./img/david_velazquez.jpg)](https://github.com/dvmoran1) [![Julian Hernandez](/img/julian_hernandez.jpg)](https://github.com/codeinit-code)
 
 
-* * **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+# 🎁  Agradecimiento Especial
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+Todos los integrantes del equipo 1, agradecemos infinitamente la oportunidad que nos brindaron **Santander** y **Bedu** de participar dentro del programa __“Becas Santander – BEDU: Disruptive Innovation: 3 caminos para impulsar tu carrera"__, en el Learning Path **Desarrollo Web**.
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
-
-
-
-
-# Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
-
-### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+Somos muy afortunados de formar parte de este gran proyecto. Esperamos nos honren con la oportunidad de continuar retando nuestro potencial en la siguiente fase del programa.  
