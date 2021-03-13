@@ -52,6 +52,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Escritorio y silla
         * Televisión y DVD
 
+
 * **Sus instalaciones incluyen:**
     * Alberca 
     * Amplio jardín 
@@ -59,8 +60,9 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
     * Estacionamiento
     * Jacuzzi 
 
+
 * **Los servicios que ofrecen:**
-    * Todos los servicios, excluyendo el ***Wifi***, se deben notificar con anticipación. 
+    * Todos los servicios, excluyendo el *Wifi*, se deben notificar con anticipación. 
     * ***Sin costo adicional***:
         * Asador con duración de 4 hrs
         * Camping con duración de 24 hrs
@@ -71,8 +73,9 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Hiking  $50 con duración de 2 hrs
         * Masaje  $600 con duración de 55 min
 
+
 * **Proceso de reservación:**
-    1 El Huésped proporciona sus datos:
+    1. El Huésped proporciona sus datos:
         * Nombre Completo
         * Teléfono
         * Fechas de la reservación:
@@ -80,18 +83,18 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
             * Fin
         * No. de personas a hospedarse
         * No. mascotas que viajarán con ellos
-    2 Se verifica que exista disponibilidad:
+    2. Se verifica que exista disponibilidad:
         * Fecha de inicio y fin de reservación
         * Cabañas/Habitaciones que exista disponibilidad y se cubran las personas que indicó el huésped. 
-    3 En caso de existir disponibilidad, se le pide al huésped que realice el deposito de su anticipo (equivalente al 50% de su estadía) con el fin de confirmar su reservación. 
+    3. En caso de existir disponibilidad, se le pide al huésped que realice el deposito de su anticipo (equivalente al 50% de su estadía) con el fin de confirmar su reservación. 
 
     El restante lo Liquidará cuándo se encuentre en las instalaciones del hotel.
 
-    4 Cuando el huésped envié el comprobante de su anticipo, se confirma la reservación y se le pregunta si deseará algún servicio para su estadía. En caso de que requiera de algún servicio se le indicará el costo, duración y se le notificará que este se cubrirá cuándo se encuentre en las instalaciones del hotel.
+    4. Cuando el huésped envié el comprobante de su anticipo, se confirma la reservación y se le pregunta si deseará algún servicio para su estadía. En caso de que requiera de algún servicio se le indicará el costo, duración y se le notificará que este se cubrirá cuándo se encuentre en las instalaciones del hotel.
 
-    5 Cuando el cliente realice su check-in dentro de las instaciones del hotel se
+    5. Cuando el cliente realice su check-in dentro de las instaciones del hotel se
 
-    
+
 ## 👱 Usuarios
 
 #### Tipos de Usuarios 
