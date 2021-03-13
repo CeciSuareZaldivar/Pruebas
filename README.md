@@ -38,31 +38,62 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
 
 #### Tipos de Usuarios 
 
+Para el correcto funcionamiento de la API, únicamente se requieren 2 usuarios. Mismos que se detallan a continuación:
+
 ##### Cliente (Huésped)
 
-###### Historias de usuario
+Individuo que pide informes del hospedaje, deseando reservar una determinada fecha para hospedarse en el hotel.
 
+
+Suele proporcionar los siguientes datos para preguntar sobre la disponibilidad :
+* Nombre Completo
+* Teléfono
+* Fechas de la reservación:
+    * Inicio
+    * Fin
+* No. de personas a hospedarse
+* No. mascotas que viajan con ellos
+
+###### Historias de usuario
+Únicamente puede agregar sus datos para pedir informes de su reservación.
 
 ##### Vendedor
+Responsable del seguimiento de renta de las cabañas.
+
+
+Entre sus principales funciones destacan: 
+* Brindar informes del hospedaje
+* Verificar disponibilidad de las habitaciones.
+* Darle seguimiento en general a todas las dudas del cliente/huésped con la finalidad de que
+confirme su reservación.
 
 ###### Historias de usuario
-
+Este usuario puede realizar las siguientes acciones:
+* Agregar Clientes
+* Modificar Clientes
+* Eliminar Clientes
+* Consultar atributos específicos de los Clientes
 
 ## 📝 Creación de la Base de Datos
 
-* Entidades:
-    * Empleado
-    * Cliente
-    * Habitación
-    * Opinión 
-    * Cliente_habitación
-    * Cliente_servicio
+### Entidades
+
+* Empleado
+* Cliente
+* Habitación
+* Opinión 
+* Cliente_habitación
+* Cliente_servicio
 
 ### Modelo ER
 ![modelo_er](./img/modelo_er.jpg)
 
 ### Modelo relacional
 ![modelo_relacional](./img/modelo_relacional.jpg)
+
+# Implementacón del Proyecto
+## Preparar entorno de desarrollo
+Crear la siguiente estructura 
 
 <a name="autores"></a>
 # ✒️ Autores 
