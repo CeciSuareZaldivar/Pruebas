@@ -4,7 +4,7 @@ Creación de una API para el Hotel PetFriendly denominado [“Xacalli Posada”]
 
 ### 💡 Nota:
 
-> Este proyecto se realizó cómo parte de la finalización del módulo de BackEnd de [Bedu](https://bedu.org/), el [equipo 1](#Autores) creó la API implementando todo lo aprendido durante el módulo.
+> Este proyecto se realizó cómo parte de la finalización del módulo de BackEnd de [Bedu](https://bedu.org/), el [equipo 1](#autores) creó la API implementando todo lo aprendido durante el módulo.
 
 
 # 🚀 Requerimientos del proyecto
@@ -38,6 +38,7 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
 
 ## 📝 Creación de la Base de Datos
 
+<a name="autores"></a>
 # ✒️ Autores 
 
 [![Ceci Suarez](./img/ceci_suarez.jpg)](https://github.com/CeciSuareZaldivar) [![Cristian Garcia](./img/cristian_garcia.jpg)](https://github.com/Adalk033)  
@@ -48,4 +49,5 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
 
 Todos los integrantes del equipo 1, agradecemos infinitamente la oportunidad que nos brindaron **Santander** y **Bedu** de participar dentro del programa __“Becas Santander – BEDU: Disruptive Innovation: 3 caminos para impulsar tu carrera"__, en el Learning Path **Desarrollo Web**.
 
-Somos muy afortunados de formar parte de este gran proyecto. Esperamos nos honren con la oportunidad de continuar retando nuestro potencial en la siguiente fase del programa.  
+Somos muy afortunados de formar parte de este gran proyecto. 
+Esperamos nos honren con la oportunidad de continuar retando nuestro potencial en la siguiente fase del programa.  
