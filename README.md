@@ -9,7 +9,19 @@ Creación de una API para el Hotel PetFriendly denominado [“Xacalli Posada”]
 
 # 🚀 Requerimientos del proyecto
 
-El hotel requiere agilizar su proceso de toma de decisiones dentro su área de ventas, necesita un espacio en el cual pueda visualizar y analizar los diferentes datos que sus huéspedes le proporcionan.
+El hotel requiere agilizar sus procesos de toma de decisiones dentro su área de ventas, necesita un espacio en el cual pueda visualizar los diferentes datos que sus huéspedes le proporcionan.
+
+Actualmente el hotel realiza sus reservaciones apoyandose de un método anticuado y disfuncional. Consigue sus prospectos por medio de Facebbok, realiza su labor de venta y en caso de que se deseen hospedar apunta la reservación en una hoja de papel; en ocasiones no recuerda dónde apunto los datos, por lo que constantemente se realizan las siguientes preguntas:
+ * ¿Ya tengo reservaciones confirmadas?
+ * ¿Cuánto dejó de anticipo el húesped?
+ * ¿Para cuántas personas es la reservación?
+ * ¿De cuántas noches es su reservación?
+ * ¿En qué fecha se hospedarán?
+ * ¿Todavía cuento con disponibilidad en esa fecha?
+ * ¿Puedo seguir ofertando las demás cabañas/habitaciones?
+
+
+## Optimización de procesos
 
 Algunos de los procesos son:
 * **Seguimiento dentro del proceso de venta:** 
@@ -31,12 +43,12 @@ Algunos de los procesos son:
 
 # 🎯 Objetivo
 
-Agilizar los procesos dentro del área de ventas del hotel, mediante la estructuración, sistematización y configuración de un CRM (Customer Relationship Management) personalizado.
+Innovar y optimizar los procesos dentro del área de ventas del hotel, mediante la estructuración, sistematización y configuración de un CRM (Customer Relationship Management) personalizado.
 
 La correcta implementación del proyecto por parte del hotel se traducirá cómo la optimización en la toma de decisiones dentro de su departamento de ventas (reduciendo el tiempo de respuesta por parte del vendedor al cliente); el CRM agilizará no sólo la visualización si no también la gestión de sus diferentes datos.
 
 
-# 📖 Desarrollo del Proyecto
+# 📖 Antecedentes del Proyecto
 Depués de tener una breve entrevista con el dueño del hotel obtuvimos la siguiente información:
 
 ## Hotel Petfriendly
@@ -46,8 +58,8 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
 
 * **Cabañas/Habitaciones:**
     * Cuenta con 6 cabañas/habitaciones:
-        * 5 Tienen cama matrimonial, son para 2 personas y tiene un precio de $1,300 cada una.
-        * 1 Tiene cama matrimonial e individual, es para 3 personas y tiene un precio de $1,600.
+        * 5 Tienen cama matrimonial, son para 2 personas y tiene un precio por noche de $1,300 cada una.
+        * 1 Tiene cama matrimonial e individual, es para 3 personas y tiene un precio por noche de $1,600.
     * La capacidad total del hotel es de 13 personas.
     * Todas las cabañas/habitaciones tienen:
         * Baño
@@ -66,7 +78,6 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
 
 ## Servicios
 * **Los servicios que ofrecen:**
-    * Todos los servicios, excluyendo el *Wifi*, se deben notificar con anticipación. 
     * ***Sin costo adicional***:
         * Asador con duración de 4 hrs
         * Camping con duración de 24 hrs
@@ -76,6 +87,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Fogata  $400 con duración de 2 hrs
         * Hiking  $50 con duración de 2 hrs
         * Masaje  $600 con duración de 55 min
+* Todos los servicios, excluyendo el *Wifi*, se deben notificar con anticipación para verificar disponibilidad.
 
 ## Reservación
 
@@ -86,19 +98,21 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Fechas de la reservación:
             * Inicio
             * Fin
+        * No. de noches que se hospedará
         * No. de personas a hospedarse
         * No. mascotas que viajarán con ellos
     2. Se verifica que exista disponibilidad:
         * Fecha de inicio y fin de reservación
-        * Cabañas/Habitaciones que exista disponibilidad y se cubran las personas que indicó el huésped. 
+        * Cabañas/Habitaciones, además de que puedan recibir el número de personas que indicó el huésped. 
     3. En caso de existir disponibilidad, se le pide al huésped que realice el deposito de su anticipo (equivalente al 50% de su estadía) con el fin de confirmar su reservación. 
 
     El restante lo Liquidará cuándo se encuentre en las instalaciones del hotel.
 
-    4. Cuando el huésped envié el comprobante de su anticipo, se confirma la reservación y se le pregunta si deseará algún servicio para su estadía. En caso de que requiera de algún servicio se le indicará el costo, duración y se le notificará que este se cubrirá cuándo se encuentre en las instalaciones del hotel.
+    4. Cuando el huésped envié el comprobante del pago de su anticipo, se confirma la reservación y se le pregunta si desearía adquirir algún servicio adicional para su estadía. En caso de que requiera de algún servicio se le indicará el costo, duración y se le notificará que el costo de este se cubrirá cuándo se encuentre en las instalaciones del hotel.
 
-    5. Cuando el cliente realice su check-in dentro de las instaciones del hotel se
+    5. Se realiza una segunda confirmación cuándo el huésped realiza su check-in, ya que han existido casos en los que realizan el deposito del anticipo pero no se presentan a las instalaciones, por lo que se podría ofrecer esa habitación si llegará algún huésped de improviso.
 
+# 🔧 Desarrollo del Proyecto
 
 ## 👱 Usuarios
 
@@ -160,9 +174,8 @@ Este usuario puede realizar las siguientes acciones:
 ### Modelo relacional
 ![modelo_relacional](./img/modelo_relacional.jpg)
 
-# Implementacón del Proyecto
-## Preparar entorno de desarrollo
-Crear la siguiente estructura 
+# 🔩 Integración del Proyecto
+
 
 <a name="autores"></a>
 # ✒️ Autores 
@@ -177,3 +190,4 @@ Todos los integrantes del equipo 1, agradecemos infinitamente la oportunidad que
 
 Somos muy afortunados de formar parte de este gran proyecto. 
 Esperamos nos honren con la oportunidad de continuar retando nuestro potencial en la siguiente fase del programa.  
+     
