@@ -41,7 +41,6 @@ Algunos de los procesos que les gustaría optimizar son:
         * Saber cúal fue la comisión que obtuvieron por reservación o por mes. 
 
 # 🎯 Objetivo
-huésped
 Innovar y optimizar los procesos dentro del área de ventas del hotel, mediante la estructuración, sistematización y configuración de un CRM (Customer Relationship Management) personalizado.
 
 La correcta implementación del proyecto por parte del hotel se traducirá cómo la optimización en la toma de decisiones dentro de su departamento de ventas (reduciendo el tiempo de respuesta por parte del vendedor al huésped); el CRM agilizará no sólo la visualización si no también la gestión de sus diferentes datos.
