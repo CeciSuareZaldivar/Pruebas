@@ -119,16 +119,14 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
     5. Se realiza una segunda confirmación cuándo el huésped realiza su check-in, ya que han existido casos en los que realizan el deposito del anticipo pero no se presentan a las instalaciones, por lo que se podría ofrecer esa habitación si llegará algún huésped de improviso.
 
 # 🔧 Desarrollo del Proyecto
+Analizamos la información proporcionada por el dueño del hotel y la configuramos de forma que cumpliera eficazmente con sus requerimientos. A continuación se explica detalladamente estructura del proyecto.
 
 ## 👱 Usuarios
-
-#### Tipos de Usuarios 
-
 Para el correcto funcionamiento de la API, únicamente se requieren 2 usuarios. 
 
 Mismos que se detallan a continuación:
 
-##### Cliente (Huésped)
+### Cliente (Huésped)
 
 Individuo que pide informes del hospedaje, deseando reservar una determinada fecha para hospedarse en el hotel.
 
@@ -143,11 +141,11 @@ Suele proporcionar los siguientes datos para preguntar sobre la disponibilidad :
 * No. mascotas que viajan con ellos.
 * Nacionalidad.
 
-###### Historias de usuario
+#### Historias de usuario
 Únicamente puede agregar sus datos para pedir informes.
 
 
-##### Vendedor
+### Vendedor
 Responsable del seguimiento de renta de las cabañas.
 
 
@@ -157,30 +155,65 @@ Entre sus principales funciones destacan:
 * Darle seguimiento en general a todas las dudas del cliente/huésped con la finalidad de que
 confirme su reservación.
 
-###### Historias de usuario
+#### Historias de usuario
 Este usuario puede realizar las siguientes acciones:
 * Agregar Clientes.
 * Modificar Clientes.
 * Eliminar Clientes.
 * Consultar atributos específicos de los Clientes.
 
-## 📝 Creación de la Base de Datos
+## 📝 Base de Datos
 
+### Análisis de requisitos
+Para crear la base de datos nos cuestionamos y respondimos las siguientes preguntas:
+* ¿Qué información necesita almacenar el hotel?.
+* ¿Cúantas entidades tendrá la base de datos?.
+* ¿Y cuáles serán?.
+* ¿Qué relación existe entre las diferentes entidades del hotel?.
 
-### Entidades
+#### Entidades
+Al analizar exhaustivamente los requerimiento del hotel, llegamos a la conclusión de que se necesitas las siguientes entidades para el correcto funcionamiento de su base de datos:
 
 * Empleado.
 * Cliente.
 * Habitación.
+* Servicios
 * Opinión.
 * Cliente_habitación.
 * Cliente_servicio.
 
-### Modelo ER
+Los atributos de cada entidas son los siguientes:
+| No | Entidad | Atributos |
+| ---------- | ---------- | ---------- |
+| 1 | Empleado | id_epo, nombre, apellido, salario, telefono, comision y edo_id_edo |
+| 2 | Cliente  | id_cte, nombre, apellido,  telefono, no_personas,  no_mascotas, nacionalidad, email,  facebook y epo_id_epo |
+| 3 | Habitación | id_hbn, costo, cupo y disponibilidad |
+| 4 | Servicios | id_svo, nombre, costo y duración |
+| 5 | Opinión| id_OPN, cte_id_cte, texto y valoración |
+| 6 | Cliente_Habitación| fecha_de_reservacion, fecha_de_inicio, fecha_de_fin,  no_noches, check_in, chek_out, pago_anticipo, precio_habitacion, cte_id_cte y hbn_id_hbn |
+| 7 | Cliente_Servicio  | cte_id_cte, svo_id_svo, fecha_de_inicio, fecha_de_fin, hora_de_inicio y hora_de_fin |
+
+### Diseño Conceptual
+
+#### Modelo ER
+Con el objetivo de visualizar la relación entre las entidades realizamos el modelo entidad relación.
+
+Al darle clic en la imagen, podrán ver el modelo entidad relación en una mayor resolución.
+
 ![modelo_er](./img/modelo_er.jpg)
 
-### Modelo relacional
+### Elección de un Sistema de Gestión de Bases de Datos
+SQL
+
+### Diseño lógico
+
+#### Modelo relacional
+Pasamos el modelo entidad relación al modelo relacional.
+
+Al igual que la imagen anterior, al darle cclic, pueden visualizarla en una mejot resolución.
 ![modelo_relacional](./img/modelo_relacional.jpg)
+
+### Diseño Físico
 
 # 🔩 Integración del Proyecto
 
@@ -197,5 +230,4 @@ Este usuario puede realizar las siguientes acciones:
 Todos los integrantes del equipo 1, agradecemos infinitamente la oportunidad que nos brindaron **Santander** y **Bedu** de participar dentro del programa __“Becas Santander – BEDU: Disruptive Innovation: 3 caminos para impulsar tu carrera"__, en el Learning Path **Desarrollo Web**.
 
 Somos muy afortunados de formar parte de este gran proyecto. 
-Esperamos nos honren con la oportunidad de continuar retando nuestro potencial en la siguiente fase del programa.  
-     
+Esperamos nos honren con la oportunidad de continuar retando nuestro potencial en la siguiente fase del programa.
