@@ -194,7 +194,12 @@ Al darle clic en la imagen, podrán ver el modelo entidad relación en una mayor
 ![modelo_er](./img/modelo_er.jpg)
 
 ### ◽ Elección de un Sistema de Gestión de Bases de Datos
-SQL
+Se decidió utilizar MySQL para la gestión de la base de datos debido a su prácticidad, flexibilidad y velocidad en el procesamiento de la información.
+
+Al trabajar con bases de datos relacionales; tablas que se interconectan entre sí, agilizan la consulta y el almacenamiento de información. Dando oportunidad de crear consultas coplejas (que incluyan varias tablas) de forma fácil y rápida.
+
+Debido a la facilidad en su configuración e instalación nos ayudará a escalar el proyecto, cuándo los requerimientos aumenten; escalando el proyecto sin ningún inconveniente.
+
 
 ### ▪️ Diseño lógico
 
@@ -213,7 +218,7 @@ En la siguiente imagen, se puede ver la estructura  de las tablas en SQL.
 
 
 
-# 🔩 Integración del Proyecto
+# 🔩 Implementación del Proyecto
 
 
 <a name="autores"></a>
