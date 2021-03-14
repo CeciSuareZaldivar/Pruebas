@@ -60,6 +60,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
     * Cuenta con 6 cabañas/habitaciones:
         * 5 Tienen cama matrimonial, son para 2 personas y tiene un precio por noche de $1,300 cada una.
         * 1 Tiene cama matrimonial e individual, es para 3 personas y tiene un precio por noche de $1,600.
+        * Se agregará una 7ma cabaña/habitación con la que se interpretará que ya no cuenta con disponibilidad el hotel.
     * La capacidad total del hotel es de 13 personas.
     * Todas las cabañas/habitaciones tienen:
         * Baño.
@@ -119,7 +120,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
     5. Se realiza una segunda confirmación cuándo el huésped realiza su check-in, ya que han existido casos en los que realizan el deposito del anticipo pero no se presentan a las instalaciones, por lo que se podría ofrecer esa habitación si llegará algún huésped de improviso.
 
 # 🔧 Desarrollo del Proyecto
-Analizamos la información proporcionada por el dueño del hotel y la configuramos de forma que cumpliera eficazmente con sus requerimientos. A continuación se explica detalladamente estructura del proyecto.
+Analizamos la información proporcionada por el dueño del hotel y la configuramos de forma que cumpliera eficazmente con sus requerimientos. A continuación se explica detalladamente la estructura del proyecto.
 
 ## 👱 Usuarios
 Para el correcto funcionamiento de la API, únicamente se requieren 2 usuarios. 
@@ -172,26 +173,17 @@ Para crear la base de datos nos cuestionamos y respondimos las siguientes pregun
 * ¿Qué relación existe entre las diferentes entidades del hotel?.
 
 #### Entidades
-Al analizar exhaustivamente los requerimiento del hotel, llegamos a la conclusión de que se necesitas las siguientes entidades para el correcto funcionamiento de su base de datos:
+Al analizar exhaustivamente los requerimiento del hotel, llegamos a la conclusión de que se necesitan las siguientes entidades y sus respectivos atributos para el correcto funcionamiento de su base de datos:
 
-* Empleado.
-* Cliente.
-* Habitación.
-* Servicios
-* Opinión.
-* Cliente_habitación.
-* Cliente_servicio.
-
-Los atributos de cada entidas son los siguientes:
 | No | Entidad | Atributos |
 | ---------- | ---------- | ---------- |
-| 1 | Empleado | id_epo, nombre, apellido, salario, telefono, comision y edo_id_edo |
-| 2 | Cliente  | id_cte, nombre, apellido,  telefono, no_personas,  no_mascotas, nacionalidad, email,  facebook y epo_id_epo |
-| 3 | Habitación | id_hbn, costo, cupo y disponibilidad |
-| 4 | Servicios | id_svo, nombre, costo y duración |
-| 5 | Opinión| id_OPN, cte_id_cte, texto y valoración |
-| 6 | Cliente_Habitación| fecha_de_reservacion, fecha_de_inicio, fecha_de_fin,  no_noches, check_in, chek_out, pago_anticipo, precio_habitacion, cte_id_cte y hbn_id_hbn |
-| 7 | Cliente_Servicio  | cte_id_cte, svo_id_svo, fecha_de_inicio, fecha_de_fin, hora_de_inicio y hora_de_fin |
+| 1 | Empleado | id del empleado, nombre, apellido, salario, telefono, comision y id de su jefe (si tiene) |
+| 2 | Cliente  | id del cliente, nombre, apellido,  telefono, no de personas que se hospedarán,  no de mascotas, nacionalidad, email,  facebook y eid del vendedor que lo atenderá |
+| 3 | Habitación | id de la habitación, costo, cupo y disponibilidad |
+| 4 | Servicios | id del servicio, nombre, costo y duración |
+| 5 | Opinión| id de la opinión, id del cliente que hizo la opinión, texto y valoración |
+| 6 | Cliente_Habitación| fecha de reservacion, fecha de inicio, fecha de fin,  no de noches, check in, chek out, pago de su anticipo, precio de la habitacion, id del cliente y id de la habitación |
+| 7 | Cliente_Servicio  | id del cliente, id del servicio, fecha de inicio, fecha de fin, hora de inicio y hora de fin |
 
 ### Diseño Conceptual
 
@@ -210,10 +202,15 @@ SQL
 #### Modelo relacional
 Pasamos el modelo entidad relación al modelo relacional.
 
-Al igual que la imagen anterior, al darle cclic, pueden visualizarla en una mejot resolución.
+Al igual que el modelo anterior, al darle clic, se puede visualizar la imagen en una mejot resolución.
 ![modelo_relacional](./img/modelo_relacional.jpg)
 
 ### Diseño Físico
+Es la implementación del modelo relacional, creando la estructura de las tablas; definiendo las llaves primarias y foráneas que se relacionan entre las distintas entidades.
+
+![creacion_tablas_sql](./img/creacion_tablas_sql.jpg)
+
+
 
 # 🔩 Integración del Proyecto
 
