@@ -126,7 +126,7 @@ Para el correcto funcionamiento de la API, únicamente se requieren 2 usuarios.
 
 Mismos que se detallan a continuación:
 
-### Cliente (Huésped)
+### 🔹 Cliente (Huésped)
 
 Individuo que pide informes del hospedaje, deseando reservar una determinada fecha para hospedarse en el hotel.
 
@@ -145,7 +145,7 @@ Suele proporcionar los siguientes datos para preguntar sobre la disponibilidad :
 Únicamente puede agregar sus datos para pedir informes.
 
 
-### Vendedor
+### 🔹 Vendedor
 Responsable del seguimiento de renta de las cabañas.
 
 
@@ -184,7 +184,7 @@ Al analizar exhaustivamente los requerimiento del hotel, llegamos a la conclusi�
 | 6 | Cliente_Habitación| fecha de reservacion, fecha de inicio, fecha de fin,  no de noches, check in, chek out, pago de su anticipo, precio de la habitacion, id del cliente y id de la habitación |
 | 7 | Cliente_Servicio  | id del cliente, id del servicio, fecha de inicio, fecha de fin, hora de inicio y hora de fin |
 
-### 📍 Diseño Conceptual
+### ◾ Diseño Conceptual
 
 #### 🔖 Modelo ER
 Con el objetivo de visualizar la relación entre las entidades realizamos el modelo entidad relación.
@@ -193,10 +193,10 @@ Al darle clic en la imagen, podrán ver el modelo entidad relación en una mayor
 
 ![modelo_er](./img/modelo_er.jpg)
 
-### 📍  Elección de un Sistema de Gestión de Bases de Datos
+### ◽ Elección de un Sistema de Gestión de Bases de Datos
 SQL
 
-### 📍  Diseño lógico
+### ▪️ Diseño lógico
 
 #### 🔖 Modelo relacional
 Pasamos el modelo entidad relación al modelo relacional.
@@ -204,7 +204,7 @@ Pasamos el modelo entidad relación al modelo relacional.
 Al igual que el modelo anterior, al darle clic, se puede visualizar la imagen en una mejot resolución.
 ![modelo_relacional](./img/modelo_relacional.jpg)
 
-### 📍  Diseño Físico
+### ▫️ Diseño Físico
 Es la implementación del modelo relacional, creando la estructura de las tablas; definiendo las llaves primarias y foráneas que se relacionan entre las distintas entidades.
 
 En la siguiente imagen, se puede ver la estructura  de las tablas en SQL.
