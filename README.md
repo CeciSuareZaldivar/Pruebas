@@ -20,8 +20,7 @@ Actualmente el hotel realiza sus reservaciones apoyandose de un método anticuad
  * ¿Todavía cuento con disponibilidad en esa fecha?.
  * ¿Puedo seguir ofertando las demás cabañas/habitaciones?.
 
-
-## Optimización de procesos
+## ✔️ Optimización de procesos
 
 Algunos de los procesos que les gustaría optimizar son:
 * **Seguimiento dentro del proceso de venta:** 
@@ -51,10 +50,10 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
 # 📖 Antecedentes del Proyecto
 Depués de tener una breve entrevista con el dueño del hotel obtuvimos la siguiente información:
 
-## Hotel Petfriendly
+## 🐾 Hotel Petfriendly
 * Es un hotel PetFriendly, por lo que los húespedes pueden llevar a sus mascotas.
 
-## Cabañas/Habitaciones
+## 🏨 Cabañas/Habitaciones
 
 * **Cabañas/Habitaciones:**
     * Cuenta con 6 cabañas/habitaciones:
@@ -68,7 +67,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Escritorio y silla.
         * Televisión y DVD.
 
-## Instalaciones
+## 🌼 Instalaciones
 
 * **Sus instalaciones incluyen:**
     * Alberca.
@@ -77,7 +76,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
     * Estacionamiento.
     * Jacuzzi. 
 
-## Servicios
+## 🌊 Servicios
 * **Los servicios que ofrecen:**
     * ***Sin costo adicional***:
         * Asador con duración de 4 hrs.
@@ -90,7 +89,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Masaje  $600 con duración de 55 min.
 * Todos los servicios, excluyendo el *Wifi*, se deben notificar con anticipación para verificar disponibilidad.
 
-## Empleados
+## 👷 Empleados
 * Tienen un salario base de $500.
 
 * Se le paga al empleado una comisión de $250 por cada cabaña/habitación que rente por noche.
@@ -98,7 +97,7 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Si una pareja (2 personas) se hospeda de viernes a domingo, son dos noches. Siendo $500 de comisión.
         * Si 2 parejas (4 personas) se hospedan de domingo a lunes, es decir, una noche. De igual forma serían $500 de comisión; aunque es una sola noche son dos las cabañas/habitaciones que se rentaron.
 
-## Reservación
+## 📦 Reservación
 * **Proceso de reservación:**
     1. El Huésped proporciona sus datos:
         * Nombre Completo.
@@ -165,14 +164,14 @@ Este usuario puede realizar las siguientes acciones:
 
 ## 📝 Base de Datos
 
-### Análisis de requisitos
+### ☑️ Análisis de requisitos
 Para crear la base de datos nos cuestionamos y respondimos las siguientes preguntas:
 * ¿Qué información necesita almacenar el hotel?.
 * ¿Cúantas entidades tendrá la base de datos?.
 * ¿Y cuáles serán?.
 * ¿Qué relación existe entre las diferentes entidades del hotel?.
 
-#### Entidades
+#### 🔦 Entidades
 Al analizar exhaustivamente los requerimiento del hotel, llegamos a la conclusión de que se necesitan las siguientes entidades y sus respectivos atributos para el correcto funcionamiento de su base de datos:
 
 | No | Entidad | Atributos |
@@ -185,28 +184,30 @@ Al analizar exhaustivamente los requerimiento del hotel, llegamos a la conclusi�
 | 6 | Cliente_Habitación| fecha de reservacion, fecha de inicio, fecha de fin,  no de noches, check in, chek out, pago de su anticipo, precio de la habitacion, id del cliente y id de la habitación |
 | 7 | Cliente_Servicio  | id del cliente, id del servicio, fecha de inicio, fecha de fin, hora de inicio y hora de fin |
 
-### Diseño Conceptual
+### 📍 Diseño Conceptual
 
-#### Modelo ER
+#### 🔖 Modelo ER
 Con el objetivo de visualizar la relación entre las entidades realizamos el modelo entidad relación.
 
 Al darle clic en la imagen, podrán ver el modelo entidad relación en una mayor resolución.
 
 ![modelo_er](./img/modelo_er.jpg)
 
-### Elección de un Sistema de Gestión de Bases de Datos
+### 📍  Elección de un Sistema de Gestión de Bases de Datos
 SQL
 
-### Diseño lógico
+### 📍  Diseño lógico
 
-#### Modelo relacional
+#### 🔖 Modelo relacional
 Pasamos el modelo entidad relación al modelo relacional.
 
 Al igual que el modelo anterior, al darle clic, se puede visualizar la imagen en una mejot resolución.
 ![modelo_relacional](./img/modelo_relacional.jpg)
 
-### Diseño Físico
+### 📍  Diseño Físico
 Es la implementación del modelo relacional, creando la estructura de las tablas; definiendo las llaves primarias y foráneas que se relacionan entre las distintas entidades.
+
+En la siguiente imagen, se puede ver la estructura  de las tablas en SQL.
 
 ![creacion_tablas_sql](./img/creacion_tablas_sql.jpg)
 
