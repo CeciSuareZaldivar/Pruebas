@@ -13,7 +13,7 @@ El hotel requiere agilizar sus procesos de toma de decisiones dentro su área de
 
 Actualmente el hotel realiza sus reservaciones apoyandose de un método anticuado y disfuncional. Consigue sus prospectos por medio de Facebbok, realiza su labor de venta y en caso de que se deseen hospedar apunta la reservación en una hoja de papel; en ocasiones no recuerda dónde apunto los datos, por lo que constantemente se realizan las siguientes preguntas:
  * ¿Ya tengo reservaciones confirmadas?.
- * ¿Cuánto dejó de anticipo el húesped?.
+ * ¿Cuánto dejó de anticipo el huésped?.
  * ¿Para cuántas personas es la reservación?.
  * ¿De cuántas noches es su reservación?.
  * ¿En qué fecha se hospedarán?.
@@ -31,17 +31,17 @@ Algunos de los procesos que les gustaría optimizar son:
         * Servicios.
 * **Obtener sólo determinados campos**
     * De sus huéspedes:
-        * Estadisticas:
+        * Estadísticas:
             * Nacionalidad (¿De dónde los visitan?).
             * No. noches que se hospedan.
-            * Valoración (Calificación que los húespedes le asignan a su estadía).
+            * Valoración (Calificación que los huéspedes le asignan a su estadía).
         * Remarketing:
-            * El e-mail y el télefono de los húespedes para enviar promociones.
+            * El e-mail y el télefono de los huéspedes para enviar promociones.
     * De sus empleados:
         * Saber cúal fue la comisión que obtuvieron por reservación o por mes. 
 
 # 🎯 Objetivo
-
+huésped
 Innovar y optimizar los procesos dentro del área de ventas del hotel, mediante la estructuración, sistematización y configuración de un CRM (Customer Relationship Management) personalizado.
 
 La correcta implementación del proyecto por parte del hotel se traducirá cómo la optimización en la toma de decisiones dentro de su departamento de ventas (reduciendo el tiempo de respuesta por parte del vendedor al huésped); el CRM agilizará no sólo la visualización si no también la gestión de sus diferentes datos.
@@ -51,7 +51,7 @@ La correcta implementación del proyecto por parte del hotel se traducirá cómo
 Depués de tener una breve entrevista con el dueño del hotel obtuvimos la siguiente información:
 
 ## 🐾 Hotel Petfriendly
-* Es un hotel PetFriendly, por lo que los húespedes pueden llevar a sus mascotas.
+* Es un hotel PetFriendly, por lo que los huéspedes pueden llevar a sus mascotas.
 
 ## 🏨 Cabañas/Habitaciones
 
