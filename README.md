@@ -193,7 +193,7 @@ Al darle clic en la imagen, podrán ver el modelo entidad relación en una mayor
 ![modelo_er](./img/modelo_er.jpg)
 
 ### ◽ Elección de un Sistema de Gestión de Bases de Datos
-Se decidió utilizar MySQL para la gestión de la base de datos debido a su prácticidad, flexibilidad y velocidad en el procesamiento de la información.
+Se decidió utilizar MySQL para la gestión de la base de datos debido a su practicidad, flexibilidad y velocidad en el procesamiento de la información.
 
 Al trabajar con bases de datos relacionales; tablas que se interconectan entre sí, agilizan la consulta y el almacenamiento de información. Dando oportunidad de crear consultas coplejas (que incluyan varias tablas) de forma fácil y rápida.
 
