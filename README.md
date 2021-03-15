@@ -11,7 +11,7 @@ Creación de una API para el Hotel PetFriendly denominado [“Xacalli Posada”]
 
 El hotel requiere agilizar sus procesos de toma de decisiones dentro su área de ventas, necesita un espacio en el cual pueda visualizar los diferentes datos que sus huéspedes le proporcionan.
 
-Actualmente el hotel realiza sus reservaciones apoyandose de un método anticuado y disfuncional. Consigue sus prospectos por medio de Facebbok, realiza su labor de venta y en caso de que se deseen hospedar apunta la reservación en una hoja de papel; en ocasiones no recuerda dónde apunto los datos, por lo que constantemente se realizan las siguientes preguntas:
+Actualmente el hotel realiza sus reservaciones apoyándose de un método anticuado y disfuncional. Consigue sus prospectos por medio de Facebook, realiza su labor de venta y en caso de que se deseen hospedar apunta la reservación en una hoja de papel; en ocasiones no recuerda dónde apunto los datos, por lo que constantemente se realizan las siguientes preguntas:
  * ¿Ya tengo reservaciones confirmadas?.
  * ¿Cuánto dejó de anticipo el huésped?.
  * ¿Para cuántas personas es la reservación?.
@@ -218,6 +218,8 @@ En la siguiente imagen, se puede ver la estructura  de las tablas en SQL.
 
 
 # 🔩 Implementación del Proyecto
+Al dar clic ["Aquí”](https://app.swaggerhub.com/apis-docs/Equipo1-Bedu/Xacalli/1.0.0) pueden encontrar nuestro swagger. Documentación que los usuarios pueden consultar acerca del funcinamiento de nuestra API.
+
 
 
 <a name="autores"></a>
