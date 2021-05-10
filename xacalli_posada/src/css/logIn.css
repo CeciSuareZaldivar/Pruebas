@@ -1,0 +1,65 @@
+.logoLogIn{
+  height: 25vmin;
+}
+
+.cardLogIn{
+  border: 2px solid   #e9eee9;
+  border-radius: 10px;
+  width: 320px;
+  height: 480px;
+  text-align: center;
+  margin: 15px;
+}
+
+.containerLogIn{
+  display: flex;
+  justify-content: center;
+}
+
+.iconPhoto{
+  max-height: 28vmin;
+}
+
+.containerUser,.containerPass{
+  display: flex;
+  justify-content: center;
+}
+
+.iconUser,.iconPass{
+  max-height: 4vmin;
+  border: 1px solid  #e9eee9;
+  width: 40px;
+}
+
+
+.inputLogIn{
+  border-radius: 3px;
+  border: 1px solid  #e9eee9;
+  background-color:#d1d1d1;
+}
+
+#btnSign{
+  background-color: #af67fb;
+  color: white;
+  border-radius: 6px;
+  border: 0;
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+  box-shadow:3px 2px 10px 1px #9a59df;
+}
+
+#btnSign:hover{
+  cursor:pointer;
+  box-shadow:3px 2px 10px 1px  #b98aeb;
+}
+
+#btnSign:active{
+  box-shadow:3px 2px 15px 1px #502b77;
+}
+
+.txtForgot{
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}

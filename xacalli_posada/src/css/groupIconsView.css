@@ -1,0 +1,27 @@
+.containerGroupIcons{
+    display:flex;
+}
+
+.iconDelete, .iconEye, .iconPencil{
+    min-height: 28px;
+    padding: 5px;
+}
+
+#btnEye, #btnPencil, #btnDelete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:none;
+    border:0;
+    border-radius: 8px;
+}
+
+#btnEye:hover, #btnPencil:hover, #btnDelete:hover{
+    cursor:pointer;
+    font-style:italic;
+    box-shadow:3px 2px 8px 1px  #757575;
+}
+
+#btnEye:active, #btnPencil:active, #btnDelete:active{
+    box-shadow:3px 2px 10px 1px #757575;
+}
