@@ -1,23 +1,26 @@
+import Checkbox from '@material-ui/core/Checkbox';
+
 export const cols = [
-    {title: 'No.'},
-    {title: 'ID Cliente'},
-    {title: 'Nombre'},
-    {title: 'Teléfono'},
-    {title: 'No. Personas'},
-    {title: 'No. Mascotas'},
-    {title: 'Fecha Reservación'},
-    {title: 'Fecha Inicio'},
-    {title: 'Fecha Fin'},
-    {title: 'Fecha Pago Anticipo'},
-    {title: 'Pago Anticipo'},
-    {title: 'ID Vendedor'},
+    {id: 'idNumberReservation', label: 'No.'},
+    {id: 'idClient', label: 'ID Cliente'},
+    {id: 'name', label: 'Nombre'},
+    {id: 'phone', label: 'Teléfono'},
+    {id: 'numberPerson', label: 'No. Personas'},
+    {id: 'numberPets', label: 'No. Mascotas'},
+    {id: 'dateRegistration', label: 'Fecha Reservación'},
+    {id: 'dateStart', label: 'Fecha Inicio'},
+    {id: 'dateEnd', label: 'Fecha Fin'},
+    {id: 'datePayAdvance', label: 'Fecha Pago Anticipo'},
+    {id: 'payAdvance', label: 'Pago Anticipo'},
+    {id: 'idEmployee', label: 'ID Vendedor'},
+    {id: 'idIcons'},
 ]
 
 export const rows = [
-  {
-    id: 1,
+  { 
+    idNumberReservation: 1,
     idClient: "c01",
-    name: "Geroniomo Uc",
+    name: "Ceci Suárez Zaldívar",
     phone: "55 8367 0580",
     numberPerson: 5,
     numberPets: 0,
@@ -27,14 +30,11 @@ export const rows = [
     datePayAdvance: "7/Agosto/2021",
     payAdvance: 650,
     idEmployee: "e01",
-    rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
-    ]
   },
   {
-    id: 2,
+    idNumberReservation: 2,
     idClient: "c01",
-    name: "Geroniomo Uc",
+    name: "David Velázquez Morán",
     phone: "55 8367 0580",
     numberPerson: 5,
     numberPets: 0,
@@ -44,14 +44,11 @@ export const rows = [
     datePayAdvance: "7/Agosto/2021",
     payAdvance: 650,
     idEmployee: "e01",
-    rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
-    ]
   },
   {
-    id: 3,
+    idNumberReservation: 3,
     idClient: "c01",
-    name: "Geroniomo Uc",
+    name: "Christian García",
     phone: "55 8367 0580",
     numberPerson: 5,
     numberPets: 0,
@@ -61,14 +58,11 @@ export const rows = [
     datePayAdvance: "7/Agosto/2021",
     payAdvance: 650,
     idEmployee: "e01",
-    rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
-    ]
   },
   {
-    id: 4,
+    idNumberReservation: 4,
     idClient: "c01",
-    name: "Geroniomo Uc",
+    name: "María del Socorro Zaldívar Tavizón",
     phone: "55 8367 0580",
     numberPerson: 5,
     numberPets: 0,
@@ -78,12 +72,9 @@ export const rows = [
     datePayAdvance: "7/Agosto/2021",
     payAdvance: 650,
     idEmployee: "e01",
-    rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
-    ]
   },
   {
-    id: 5,
+    idNumberReservation: 5,
     idClient: "c01",
     name: "Geroniomo Uc",
     phone: "55 8367 0580",
@@ -95,12 +86,9 @@ export const rows = [
     datePayAdvance: "7/Agosto/2021",
     payAdvance: 650,
     idEmployee: "e01",
-    rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
-    ]
   },
   {
-    id: 6,
+    idNumberReservation: 6,
     idClient: "c01",
     name: "Geroniomo Uc",
     phone: "55 8367 0580",
@@ -112,12 +100,9 @@ export const rows = [
     datePayAdvance: "7/Agosto/2021",
     payAdvance: 650,
     idEmployee: "e01",
-    rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
-    ]
   },
   {
-    id: 7,
+    idNumberReservation: 7,
     idClient: "c01",
     name: "Geroniomo Uc",
     phone: "55 8367 0580",
@@ -129,12 +114,9 @@ export const rows = [
     datePayAdvance: "7/Agosto/2021",
     payAdvance: 650,
     idEmployee: "e01",
-    rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
-    ]
   },
   {
-    id: 8,
+    idNumberReservation: 8,
     idClient: "c01",
     name: "Geroniomo Uc",
     phone: "55 8367 0580",
@@ -146,12 +128,9 @@ export const rows = [
     datePayAdvance: "7/Agosto/2021",
     payAdvance: 650,
     idEmployee: "e01",
-    rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
-    ]
   },
   {
-    id: 9,
+    idNumberReservation: 9,
     idClient: "c01",
     name: "Geroniomo Uc",
     phone: "55 8367 0580",
@@ -163,12 +142,9 @@ export const rows = [
     datePayAdvance: "7/Agosto/2021",
     payAdvance: 650,
     idEmployee: "e01",
-    rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
-    ]
   },
   {
-    id: 10,
+    idNumberReservation: 10,
     idClient: "c01",
     name: "Geroniomo Uc",
     phone: "55 8367 0580",
@@ -180,8 +156,33 @@ export const rows = [
     datePayAdvance: "7/Agosto/2021",
     payAdvance: 650,
     idEmployee: "e01",
-    rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
-    ]
+  },
+  {
+    idNumberReservation: 11,
+    idClient: "c01",
+    name: "Geroniomo Uc",
+    phone: "55 8367 0580",
+    numberPerson: 5,
+    numberPets: 0,
+    dateRegistration: "5/Agosto/2021",
+    dateStart: "10/Agosto/2021",
+    dateEnd: "12/Agosto/2021",
+    datePayAdvance: "7/Agosto/2021",
+    payAdvance: 650,
+    idEmployee: "e01",
+  },
+  {
+    idNumberReservation: 12,
+    idClient: "c01",
+    name: "Geroniomo Uc",
+    phone: "55 8367 0580",
+    numberPerson: 5,
+    numberPets: 0,
+    dateRegistration: "5/Agosto/2021",
+    dateStart: "10/Agosto/2021",
+    dateEnd: "12/Agosto/2021",
+    datePayAdvance: "7/Agosto/2021",
+    payAdvance: 650,
+    idEmployee: "e01",
   }
 ]
